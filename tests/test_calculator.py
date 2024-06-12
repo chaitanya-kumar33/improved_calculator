@@ -1,18 +1,30 @@
-'''My Calculator Test'''
+"""
+Test cases for the Calculator class.
+"""
+
 from calculator import Calculator
 
 def test_addition():
-    '''Test that addition function works '''    
-    assert Calculator.add(2,2) == 4
+    """
+    Test addition operation.
+    """
+    assert Calculator.add(3, 2) == 5
 
 def test_subtraction():
-    '''Test that subraction function works '''    
-    assert Calculator.subtract(2,2) == 0
+    """
+    Test subtraction operation.
+    """
+    assert Calculator.subtract(4, 4) == 0
 
 def test_divide():
-    '''Test that division function works '''    
-    assert Calculator.divide(2,2) == 1
+    """
+    Test divide operation.
+    """
+    assert Calculator.divide(6, 3) == 2
 
 def test_multiply():
-    '''Test that multiply function works '''    
-    assert Calculator.multiply(2,2) == 4
+    """
+    Test multiply operation.
+    """
+    assert Calculator.multiply(3, 3) == 9
+    
